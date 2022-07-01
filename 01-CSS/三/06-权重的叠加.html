@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>权重的叠加</title>
+  <style>
+    /* 权重虽然可以叠加。但是永远不会有进位的问题 */
+    /* ul li 的权重是0,0,0,1+0,0,0,1=0,0,0,2   2*/
+    ul li {
+      color: green;
+    }
+
+    /* li的权重是0,0,0,1   1*/
+    li {
+      color: red;
+    }
+
+    /* .nav li 的权重是0,0,1,0+0,0,0,1=0,0,1,1   11*/
+    .nav li {
+      color: pink;
+    }
+  </style>
+</head>
+
+<body>
+  <ul class="nav">
+    <li>腿臭豆腐</li>
+    <li>烤鸡</li>
+    <li>西瓜冰茶</li>
+  </ul>
+</body>
+
+</html>
