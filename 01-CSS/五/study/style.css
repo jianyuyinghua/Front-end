@@ -285,6 +285,7 @@ a {
 
 .footer {
   height: 415px;
+  margin-top: 20px;
   background-color: #fff;
 }
 
@@ -339,6 +340,8 @@ a {
 
 .bianchen-hd {
   height: 60px;
+  line-height: 60px;
+  ;
 }
 
 .bianchen-hd h3 {
@@ -410,10 +413,10 @@ a {
 
 .bianchen-bd .right ul li {
   float: left;
-  width: 235px;
+  width: 230px;
   height: 270px;
   margin-top: 20px;
-  padding-left: 8px;
+  padding-left: 12px;
   background-color: #ffffff;
 }
 
@@ -435,6 +438,5 @@ a {
 }
 
 .bianchen-bd .right li div span {
-
   color: #ff7c2d;
 }
