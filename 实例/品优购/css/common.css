@@ -1,0 +1,346 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?a3d5ux');
+  src: url('../fonts/icomoon.eot?a3d5ux#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?a3d5ux') format('truetype'),
+    url('../fonts/icomoon.woff?a3d5ux') format('woff'),
+    url('../fonts/icomoon.svg?a3d5ux#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.w {
+  width: 1500px;
+  margin: 0 auto;
+}
+
+.shortcut {
+  height: 37px;
+  background-color: #f1f1f1;
+  font-size: 15px;
+}
+
+.f1 {
+  float: left;
+}
+
+.f2 {
+  float: right;
+}
+
+.shortcut ul li {
+  float: left;
+  margin: 8px 0px;
+}
+
+.shortcut ul li a {
+  display: inline-block;
+}
+
+.f1 ul li a {
+  padding: 0px 5px;
+  color: #c81623;
+}
+
+.f1 .f1_a1 {
+  color: #666666
+}
+
+.f1 .f1_a1:hover {
+  color: #c81623;
+}
+
+.f2 ul li a {
+
+  padding: 0px 15px;
+  border-right: 1px solid #666666;
+}
+
+.f2 .f2_last a {
+  border-right: 0px solid;
+}
+
+.f2 img {
+  width: 10px;
+  height: 10px;
+}
+
+/* header       */
+.header {
+  position: relative;
+  height: 110px;
+}
+
+.header .logo {
+  /* float: left; */
+  width: 175px;
+  height: 56px;
+  padding-top: 25px;
+}
+
+.header .logo h1 a {
+  overflow: hidden;
+  display: block;
+  width: 175px;
+  height: 56px;
+  background: url(../images/logo.png) no-repeat;
+  text-indent: -200px;
+  /* 京东的做法 */
+  /* font-size: 0; */
+}
+
+.search {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  top: 25px;
+  width: 675px;
+  height: 50px;
+  border: 2px solid #b1191a;
+  font-size: 0;
+  transform: translate(-50%, 0);
+}
+
+.search div {
+  float: left;
+}
+
+
+.search_input input {
+  width: 575px;
+  height: 50px;
+  font-size: 15px;
+  color: #cccccc;
+  text-indent: 1em;
+}
+
+.search input:focus {
+  color: #444;
+}
+
+.search button {
+  width: 100px;
+  height: 50px;
+  background-color: #b1191a;
+  color: #f1f1f1;
+  font-size: 18px;
+}
+
+.hotword {
+  position: absolute;
+  left: 400px;
+  width: 700px;
+  height: 28px;
+}
+
+.hotword ul li {
+  float: left;
+  margin-top: 2px;
+}
+
+.hotword ul li a {
+  display: inline-block;
+  padding: 0px 17px;
+}
+
+.hotword ul li .frist {
+  color: #c81623;
+}
+
+.shopcar {
+  position: absolute;
+  left: 1200px;
+  top: 30px;
+  width: 180px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #f7f7f7;
+  border: 1px solid #dfdfdf;
+  text-align: center;
+}
+
+.shopcar::before {
+  content: '\e900';
+  font-family: 'icomoon';
+  padding-right: 5px;
+  color: #da5555;
+}
+
+.shopcar::after {
+  padding-left: 10px;
+  content: '\ea50';
+  font-family: 'icomoon';
+}
+
+/* nav */
+.nav {
+  height: 47px;
+  border-bottom: 2px solid #b1191a;
+}
+
+.dropdown {
+  float: left;
+  width: 260px;
+  height: 47px;
+  background-color: #b1191a;
+
+}
+
+.dropdown .dt {
+  width: 100%;
+  height: 100%;
+  line-height: 47px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+}
+
+.dropdown .dd {
+  width: 260px;
+  height: 572px;
+  background-color: #c81623;
+}
+
+.dd ul li {
+  padding-left: 1%;
+  width: 99%;
+  height: 39px;
+}
+
+.dd ul li a {
+  display: block;
+  font-size: 17px;
+  text-indent: 8px;
+  color: #fff;
+}
+
+.dd ul li a::after {
+  float: right;
+  padding-right: 15px;
+  content: '\ea50';
+  font-family: 'icomoon';
+}
+
+.dd ul li a:hover {
+  background-color: #fff;
+  color: #b1191a;
+}
+
+.navitems {
+  float: left;
+  width: 1100px;
+  height: 47px;
+  line-height: 47px;
+  background-color: #fff;
+}
+
+.navitems ul li {
+  float: left;
+}
+
+.navitems ul li a {
+  display: inline-block;
+  padding: 0px 32px;
+  font-size: 18px;
+}
+
+.footer {
+  padding-top: 30px;
+  height: 950px;
+  background-color: #f5f5f5;
+}
+
+.mod_service {
+  width: 100%;
+  height: 100px;
+  border-bottom: 2px solid #ccc;
+}
+
+.mod_service ul li {
+  float: left;
+  padding: 0px 50px;
+  width: 190px;
+  height: 53px;
+}
+
+.mod_service_left {
+  overflow: hidden;
+  float: left;
+  width: 55px;
+  height: 53px;
+  background: url(../images/icons.png) no-repeat;
+}
+
+.mod_service .zhen {
+  background-position: -250px 1px;
+}
+
+.mod_service .che {
+  background-position: -250px -52px;
+}
+
+.mod_service .bao {
+  background-position: -252px -103px;
+}
+
+.mod_service .xing {
+  background-position: -252px -155px;
+}
+
+.mod_service .why {
+  background-position: -252px -207px;
+}
+
+.mod_service_right {
+  float: left;
+  width: 130px;
+  height: 53px;
+}
+
+.mod_help {
+  overflow: hidden;
+  padding-left: 50px;
+  width: 1450px;
+  height: 210px;
+  background-color: #f5f5f5;
+  border-bottom: 2px solid #ccc;
+  font-size: 15px;
+  color: #666;
+}
+
+.mod_help dl {
+  float: left;
+  padding: 20px 40px;
+  width: 150px;
+}
+
+.mod_help dl dd {
+  font-size: 18px;
+}
+
+.dl_last {
+  text-align: center;
+}
+
+dl img {
+  padding: 10px 0px;
+}
+
+.dl_last .dd_last {
+  font-size: 12px;
+}
+
+.copyright {
+  width: 100%;
+  height: 150px;
+  text-align: center;
+}
+
+.copyright_top {
+  padding: 20px 0px;
+}
+
+.copyright_middle {
+  padding-bottom: 5px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+.father {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  background-color: pink;
+  
+}
+
+.son {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  transform: translate(-50%,-50%);
+}
+/* 对行内元素无效  */
+span {
+  transform: translate(100px,100px);
+}
+  </style>
+</head>
+<body>
+  <div class="father">
+    <div class="son"></div>
+  </div>
+  <span>123</span>
+</body>
+</html>

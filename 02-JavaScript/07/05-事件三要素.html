@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <button id="but">李嘉敏</button>
+  <script>
+    // 点击一个按钮 弹出对话框
+    // 事件三要素：
+    // 1.事件源  事件触发的对象 
+var but=document.getElementById('but');
+// 2.事件类型   如：onclick鼠标点击  还是鼠标经过 还是键盘按下
+// 3.事件处理过程   通过函数赋值的方式完成
+but.onclick=function () {
+  alert('大美女')
+}
+  </script>
+</body>
+</html>

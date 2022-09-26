@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .box {
+      position: relative;
+      width: 200px;
+      height: 40px;
+      margin: 100px auto;
+      border: 1px solid #333;
+    }
+
+    .box::after {
+      position: absolute;
+      right: 10%;
+      top: 50%;
+      content: '';
+      width: 10px;
+      height: 10px;
+      border-bottom: 2px solid red;
+      border-right: 2px solid red;
+      transform: translate(0, -50%) rotate(45deg);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+
+  </div>
+</body>
+
+</html>

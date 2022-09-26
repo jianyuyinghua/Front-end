@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+    var sum = 0;
+    var average;
+    for (var i = 1; i <= 100; i++) {
+      sum += i;
+      average = sum / i
+    }
+
+    console.log(average);
+    var even = 0;
+    var odd = 0;
+    for (var f = 1; f <= 100; f++) {
+      if (f % 2 == 0) {
+        even = even + f
+      }
+      else {
+        odd = odd + f
+      }
+    }
+    console.log(even);
+    console.log(odd);
+
+    var result = 0;
+    for (var i = 1; i <= 100; i++) {
+      if (i % 3 == 0) {
+        result = result + i
+      }
+    }
+    console.log(result);
+  </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

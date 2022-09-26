@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+    function getSum (num1, num2) {
+      return num1 + num2;  //后面的代码不会执行
+      alert('今天没课了')
+    }
+    console.log(getSum(2, 5));
+
+    // 2.
+    function fn (num1, num2) {
+      return num1, num2;//返回的值是最后一个值
+    }
+    console.log(fn(1, 2));
+
+    // 3.求任意两个数的加减乘除
+    function getResult (num1, num2) {
+      return [num1 + num2, num1 - num2, num1 * num2, num1 / num2]
+    }//返回的是一个数组
+    console.log(getResult(5, 2));
+
+    // 4.
+    function fun1 () {
+      return 666;
+    }
+    console.log(fun1());
+
+    function fun12 () {
+
+    }
+    console.log(fun12());
+  </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

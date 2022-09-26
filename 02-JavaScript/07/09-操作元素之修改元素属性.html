@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    
+    img {margin-top: 30px;
+      width: 200px;
+    }
+  </style>
+</head>
+<body>
+  <button id="ljm">李嘉敏</button>
+  <button id="cf">崔帆</button>
+  <br>
+  <img src="../images/pic2.png" alt="" title="李嘉敏">
+  <script>
+    var ljm=document.getElementById('ljm');
+    var cf=document.getElementById('cf');
+    var img=document.querySelector('img');
+    cf.onclick=function() {
+    img.src='../images/pic.png';
+    img.title='崔帆大书币，再扣头皮你就变秃子'
+    }
+    ljm.onclick=function() {
+    img.src='../images/pic2.png';
+    img.title='李嘉敏'
+
+    }
+  </script>
+</body>
+</html>

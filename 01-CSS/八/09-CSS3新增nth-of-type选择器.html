@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    ul li:first-of-type {
+      background-color: pink;
+    }
+
+    ul li:last-of-type {
+      background-color: pink;
+    }
+
+    ul li:nth-of-type(even) {
+      background-color: skyblue;
+    }
+
+    /* 执行的时候先看nth-child(1) 之后回前面看div是否匹配 */
+    section div:nth-child(1) {
+      background-color: purple;
+    }
+
+    /* 首先看div指定的元素 之后再看nth-of-type */
+    section div:nth-of-type(1) {
+      background-color: purple;
+    }
+  </style>
+</head>
+
+<body>
+  <ul>
+    <li>我是第1个孩子1</li>
+    <li>我是第2个孩子1</li>
+    <li>我是第3个孩子1</li>
+    <li>我是第4个孩子1</li>
+    <li>我是第5个孩子1</li>
+    <li>我是第6个孩子1</li>
+    <li>我是第7个孩子1</li>
+    <li>我是第8个孩子1</li>
+  </ul>
+  <!-- 区别 -->
+  <section>
+    <p> 一只猪猪</p>
+    <div>两只猪猪</div>
+    <div>三只猪猪</div>
+  </section>
+</body>
+
+</html>

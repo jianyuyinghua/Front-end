@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+// 1.toString()
+var arr=[1,2,3];
+console.log(arr.toString());
+// 2.join
+var arr1=['red','pink','blue'];
+console.log(arr1.join());
+console.log(arr1.join('-'));
+console.log(arr1.join('$'));
+
+
+// 3.concat()合并两个数组 
+arr2=[2,3,4,5];
+arr3=[5,6,7];
+console.log(arr2.concat(arr3));
+
+// 4.slice()浅拷贝  左开 右闭
+arr4=['red','blue','pink','a']
+console.log(arr4.slice(1,3));
+console.log(arr4.slice(1,-1));
+
+
+// 5.splice 删除或者替换原数组
+arr5=['a','b','c','d','e']
+arr5.splice(1,0,'x')  //（索引，0是添加，添加的内容）
+console.log(arr5);
+arr5.splice(4,1,'x')  //（索引号，1是替换，替换的内容）
+console.log(arr5);
+arr5.splice(5,1,)  //（索引号，1是替换，替换的内容为空则删除）
+console.log(arr5);
+
+  </script>
+</head>
+<body>
+  
+</body>
+</html>
